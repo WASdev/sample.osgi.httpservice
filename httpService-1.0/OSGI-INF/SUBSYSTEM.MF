@@ -1,0 +1,12 @@
+Subsystem-ManifestVersion: 1.0
+IBM-Feature-Version: 2
+IBM-ShortName: httpService-1.0
+Subsystem-SymbolicName: httpService-1.0;visibility:=public
+Subsystem-Version: 1.0.0.qualifier
+Subsystem-Type: osgi.subsystem.feature
+Subsystem-Content: httpService.bundle;version="1.0.0",
+  org.eclipse.equinox.http.servlet;version="1.1.200",
+  org.eclipse.osgi.services;version="3.3.0"
+Manifest-Version: 1.0
+IBM-API-Package: org.osgi.service.http
+IBM-API-Service: org.osgi.service.http.HttpService

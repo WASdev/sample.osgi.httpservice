@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+
+  <bean class="com.ibm.samples.osgi.httpservice.RedBean">
+    <property name="owner" value="mark"/>
+    <property name="httpService" ref="httpService"/>
+  </bean>
+  
+  <reference id="httpService" interface="org.osgi.service.http.HttpService"/>
+  
+</blueprint>

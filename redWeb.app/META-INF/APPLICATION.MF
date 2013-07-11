@@ -1,0 +1,8 @@
+Application-Name: redWeb.app
+Application-SymbolicName: redWeb.app
+Application-ManifestVersion: 1.0
+Application-Version: 1.0.0.qualifier
+Manifest-Version: 1.0
+Application-Content: redWeb;version="1.0.0"
+
+
