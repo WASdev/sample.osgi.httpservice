@@ -1,1 +1,4 @@
 /.metadata
+/RemoteSystemsTempFiles
+/org.eclipse.equinox.http.servlet
+/org.eclipse.osgi.services
