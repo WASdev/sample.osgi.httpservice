@@ -14,7 +14,8 @@ This section covers:
 
 Getting the projects into Eclipse. 
 You will need:
-- A recent copy of the Eclipse IDE. I'm using Juno SR2. See http://www.eclipse.org/downloads/
+- A recent copy of the Eclipse IDE. I'm using Juno SR2. The WebSphere Development Tools don't support Kepler as of July 12th 2013. (https://www.ibm.com/developerworks/community/forums/html/topic?id=0b0dff76-f833-4607-95e8-538a9ddaec75)
+  See http://www.eclipse.org/downloads/
 - For Git tools I'm using the GitHub client for Windows, and the eGIT Eclipse client, http://download.eclipse.org/egit/updates
 
 Use these or similar tools to pull the code down and create four projects in Eclipse:
