@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: httpService.bundle
-Bundle-SymbolicName: httpService.bundle
+Bundle-Name: httpService bundle
+Bundle-SymbolicName: httpServiceWab
 Bundle-Version: 1.0.0
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Import-Package: javax.el;version="2.0",
