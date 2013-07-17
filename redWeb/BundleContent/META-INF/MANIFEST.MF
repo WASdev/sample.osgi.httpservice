@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: redWeb
+Bundle-SymbolicName: redWeb
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.osgi.service.http, javax.servlet.http, javax.servlet
