@@ -41,4 +41,27 @@ Load them into Eclipse: File > Import > OSGi Bundle or Fragment. Take the defaul
 - redWeb          - application bundle
 - redWeb.app      - OSGi Applcation
 
+5. Set up your server. I've not worked out how to check a server.xml into GitHub in a way that makes it easy to pull out. So, edit your server.xml and add the following features:
+  wab-1.0
+  usr:httpService-1.0
+
+6. Install the application: right click redWeb.app > Run as > run on server
+
+7. Start the server
+
+8. Test the application! Visit http://localhost:9080/httpService/red
+
+Web browser displays, 'Hello World from RedServlet'
+
+Console output from server:
+Launching defaultServer (WebSphere Application Server 8.5.5.0/wlp-1.0.3.20130510-0831) on IBM J9 VM, version ...
+[AUDIT   ] CWWKE0001I: The server defaultServer has been launched.
+Wab feature bundle activated
+[AUDIT   ] CWWKZ0058I: Monitoring dropins for applications. 
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://localhost:9080/httpService/
+[AUDIT   ] CWWKZ0001I: Application redWeb.app started in 2.716 seconds.
+[AUDIT   ] CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+RedBean owner set to mark
+RedServlet registered at /red
+
 
