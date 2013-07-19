@@ -28,28 +28,28 @@ You will need:
 
 
 3. Download the following bundles:
-   - http://www.eclipse.org/downloads/download.php?file=/equinox/drops/R-3.7-201106131736/org.eclipse.equinox.http.servlet_1.1.200.v20110502.jar
-   - http://www.eclipse.org/downloads/download.php?file=/equinox/drops/R-3.7.2-201202080800/org.eclipse.osgi.services_3.3.0.v20110513.jar
+  - http://www.eclipse.org/downloads/download.php?file=/equinox/drops/R-3.7-201106131736/org.eclipse.equinox.http.servlet_1.1.200.v20110502.jar
+  - http://www.eclipse.org/downloads/download.php?file=/equinox/drops/R-3.7.2-201202080800/org.eclipse.osgi.services_3.3.0.v20110513.jar
 
-Load them into Eclipse: File > Import > OSGi Bundle or Fragment. Take the defaults, including the use of Liberty as the target runtime. 
+4. Load them into Eclipse: File > Import > OSGi Bundle or Fragment. Take the defaults, including the use of Liberty as the target runtime. 
 
 
-4. git clone https://github.com/WASdev/sample.osgi.httpservice
+5. git clone https://github.com/WASdev/sample.osgi.httpservice
    File > Import > Existing projects into workspace. Pull in:
-- httpService-1.0 - user feature
-- httpServiceWab  - bundle contained by the user feature. http requests go through here. 
-- redWeb          - application bundle
-- redWeb.app      - OSGi Applcation
+  - httpService-1.0 - user feature
+  - httpServiceWab  - bundle contained by the user feature. http requests go through here. 
+  - redWeb          - application bundle
+  - redWeb.app      - OSGi Applcation
 
-5. Set up your server. I've not worked out how to check a server.xml into GitHub in a way that makes it easy to pull out. So, edit your server.xml and add the following features:
+6. Set up your server. I've not worked out how to check a server.xml into GitHub in a way that makes it easy to pull out. So, edit your server.xml and add the following features:
   wab-1.0
   usr:httpService-1.0
 
-6. Install the application: right click redWeb.app > Run as > run on server
+7. Install the application: right click redWeb.app > Run as > run on server
 
-7. Start the server
+8. Start the server
 
-8. Test the application! Visit http://localhost:9080/httpService/red
+9. Test the application! Visit http://localhost:9080/httpService/red
 
 Web browser displays, 'Hello World from RedServlet'
 
