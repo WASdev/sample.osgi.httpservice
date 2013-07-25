@@ -1,0 +1,7 @@
+Application-Name: greenWeb.app
+Application-SymbolicName: greenWeb.app
+Application-ManifestVersion: 1.0
+Application-Version: 1.0.0.qualifier
+Application-Content: greenWeb;version="1.0.0"
+Manifest-Version: 1.0
+
