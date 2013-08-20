@@ -1,8 +1,9 @@
 sample.osgi.httpservice
 =======================
 
-Introduction
-This sample project combines the Equinox httpServic with OSGi Applications on the WebSphere Liberty profile. 
+This sample project combines the Equinox httpService with OSGi Applications on the WebSphere Liberty profile.
+
+This readme file focusses on how to install and test the sample. Please see https://www.ibmdw.net/wasdev/docs/sample-osgi-httpservice for a broader overview of the sample and its purpose. 
 
 The project comprises a user feature and two OSGi applications. The user feature provides the HttpService. Of the two 
 OSGi Applications, one registers itself with the HttpService; the other is detected and registered by the user feature. 
