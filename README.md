@@ -60,10 +60,10 @@ You will need:
 
 9. Test the application! Visit http://localhost:9080/httpService/red
 
-Web browser displays, 'Hello World from RedServlet'
+   Web browser displays, 'Hello World from RedServlet'
 
 10. Test the second application! Vitit http://localhost:9080/httpService/greenWeb
 
-Web browser displays, 'Hello World from GreenServlet'
+   Web browser displays, 'Hello World from GreenServlet'
 
 
