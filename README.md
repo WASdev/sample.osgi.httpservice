@@ -50,8 +50,9 @@ You will need:
   usr:httpService-1.0
 
   Also add this stanza:
-  
+  ````
      <webContainer deferServletLoad="false"/>
+  ````
 
 7. Install the first application: right click redWeb.app > Run as > run on server
 
