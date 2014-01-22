@@ -45,7 +45,9 @@ You will need:
   - greenWeb        - second application bundle
   - greenWeb.app    - second OSGi Application
 
-6. Set up your server. I've not worked out how to check a server.xml into GitHub in a way that makes it easy to pull out. So, edit your server.xml and add the following features:
+6. Set up your Target Platform: Windows > Preferences > Plug-in Development > Target Platform, and select WebSphere Application Server V8.5 Liberty Profile with SPI.
+  
+7. Set up your server. I've not worked out how to check a server.xml into GitHub in a way that makes it easy to pull out. So, edit your server.xml and add the following features:
   wab-1.0
   usr:httpService-1.0
 
@@ -54,15 +56,15 @@ You will need:
      <webContainer deferServletLoad="false"/>
   ````
 
-7. Install the first application: right click redWeb.app > Run as > run on server
+8. Install the first application: right click redWeb.app > Run as > run on server
 
-8. Start the server
+9. Start the server
 
-9. Test the application! Visit http://localhost:9080/httpService/red
+10. Test the application! Visit http://localhost:9080/httpService/red
 
    Web browser displays, 'Hello World from RedServlet'
 
-10. Test the second application! Vitit http://localhost:9080/httpService/greenWeb
+11. Test the second application! Vitit http://localhost:9080/httpService/greenWeb
 
    Web browser displays, 'Hello World from GreenServlet'
 
