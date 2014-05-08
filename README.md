@@ -56,15 +56,17 @@ You will need:
      <webContainer deferServletLoad="false"/>
   ````
 
-8. Install the first application: right click redWeb.app > Run as > run on server
+8. Install the user feature: Right click on httpService-1.0 in Enterprise Explorer and then click "Install Feature".
 
-9. Start the server
+9. Install the first application: right click redWeb.app > Run as > run on server
 
-10. Test the application! Visit http://localhost:9080/httpService/red
+10. Start the server
+
+11. Test the application! Visit http://localhost:9080/httpService/red
 
    Web browser displays, 'Hello World from RedServlet'
 
-11. Test the second application! Vitit http://localhost:9080/httpService/greenWeb
+12. Test the second application! Vitit http://localhost:9080/httpService/greenWeb
 
    Web browser displays, 'Hello World from GreenServlet'
 
